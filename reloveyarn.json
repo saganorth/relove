@@ -1,0 +1,132 @@
+{
+    "filtar": [
+        {
+         "id": 1,
+         "namn": "blå dröm",
+         "imageUrl": "/img/blafilt.jpeg",
+         "beskrivning": "gjort på bomulls garn ",
+         "mått": "ca 132 cm x 132 cm ",
+         "pris": 700
+      
+        },
+        {
+            "id": 2,
+            "namn": "regnbågs blomma",
+            "imageUrl": "/img/blomma.jpeg",
+            "beskrivning": "gjort på bomulls garn ",
+            "mått": "ca 142 cm i diameter",
+            "pris": 700
+         
+           },
+           {
+            "id": 3,
+            "namn": "c2c brun vit",
+            "imageUrl": "/img/vitbrun.jpeg",
+            "beskrivning": "gjort på bland garn av okänd sort ",
+            "mått": "ca 135 cm bred, ca 170 cm lång",
+            "pris": 400
+         
+           },
+           {
+            "id": 4,
+            "namn": "mormors filt",
+            "imageUrl": "/img/mormor.jpeg",
+            "beskrivning": "gjort på bland garn av okänd sort ",
+            "mått": "ca 90 cm bred, ca 158 cm lång",
+            "pris": 400
+         
+           },
+           {
+            "id": 5,
+            "namn": " regnbågs mormors filt",
+            "imageUrl": "/img/regnmormor.jpeg",
+            "beskrivning": "gjort på bland garn av olika slag ",
+            "mått": "ca 100 cm bred, ca 150 cm lång",
+            "pris": 400
+         
+           }
+    ],
+    "mossor":[
+        {"id": 1,
+        "namn": " restgarns mössa ",
+        "imageUrl": "/img/rest.jpeg",
+        "beskrivning": "gjort på bland garn av olika slag ",
+        "mått": "ca 60 cm omkrets, ca 22 cm lång",
+        "pris": 200
+    },
+    {"id": 2,
+    "namn": "mormors mössa",
+    "imageUrl": "/img/mossamormor.jpeg",
+    "beskrivning": "gjort på bland garn av bomull",
+    "mått": "ca 40 cm omkrets, ca 19 cm lång",
+    "pris": 200
+},
+{"id": 3,
+"namn": " Nät mössa med pärlor",
+"imageUrl": "/img/parlor.jpeg",
+"beskrivning": "gjort på bland garn av olika bomull ",
+"mått": "ca 56 cm omkrets, höjd ca 16 cm ",
+"pris": 170
+},
+{"id": 4,
+"namn": " regnbågs mormors filt",
+"imageUrl": "/img/regnmormor.jpeg",
+"beskrivning": "gjort på bland garn av olika slag ",
+"mått": "ca 100 cm bred, ca 150 cm lång",
+"pris": 300
+},
+{"id": 5,
+"namn": " regnbågs mormors filt",
+"imageUrl": "/img/regnmormor.jpeg",
+"beskrivning": "gjort på bland garn av olika slag ",
+"mått": "ca 100 cm bred, ca 150 cm lång",
+"pris": 300
+}
+    ],
+    "vaskor": [
+        {"id": 1,
+        "namn": " regnbågs mormors filt",
+        "imageUrl": "/img/regnmormor.jpeg",
+        "beskrivning": "gjort på bland garn av olika slag ",
+        "mått": "ca 100 cm bred, ca 150 cm lång",
+        "pris": 250
+    },
+    {"id": 2,
+    "namn": " regnbågs mormors filt",
+    "imageUrl": "/img/regnmormor.jpeg",
+    "beskrivning": "gjort på bland garn av olika slag ",
+    "mått": "ca 100 cm bred, ca 150 cm lång",
+    "pris": 300
+},
+{"id": 3,
+"namn": " regnbågs mormors filt",
+"imageUrl": "/img/regnmormor.jpeg",
+"beskrivning": "gjort på bland garn av olika slag ",
+"mått": "ca 100 cm bred, ca 150 cm lång",
+"pris": 400
+}
+    ],
+    "balaklava": [
+        {"id": 1,
+        "namn": " regnbågs mormors filt",
+        "imageUrl": "/img/regnmormor.jpeg",
+        "beskrivning": "gjort på bland garn av olika slag ",
+        "mått": "ca 100 cm bred, ca 150 cm lång",
+        "pris": 400
+    },
+    {"id": 2,
+    "namn": " regnbågs mormors filt",
+    "imageUrl": "/img/regnmormor.jpeg",
+    "beskrivning": "gjort på bland garn av olika slag ",
+    "mått": "ca 100 cm bred, ca 150 cm lång",
+    "pris": 500
+},
+{"id": 3,
+"namn": " regnbågs mormors filt",
+"imageUrl": "/img/regnmormor.jpeg",
+"beskrivning": "gjort på bland garn av olika slag ",
+"mått": "ca 100 cm bred, ca 150 cm lång",
+"pris": 250
+}
+    ]
+}
