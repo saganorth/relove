@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DATA_FILE = path.join(__dirname, 'relovyarn.json');
+const DATA_FILE = path.join(__dirname, 'reloveyarn.json');
 
 export const loadData = () => {
   const data = fs.readFileSync(DATA_FILE, 'utf8');
