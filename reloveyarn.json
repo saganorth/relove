@@ -1,131 +1,134 @@
 {
-    "filtar": [
-      {
-        "id": 1,
-        "namn": "Blå Dröm",
-        "imageUrl": "/img/blafilt.jpeg",
-        "beskrivning": "Handgjord med premium bomullsgarn",
-        "mått": "cirka 132 cm x 132 cm",
-        "pris": 700
+  "filtar": [
+    {
+      "id": 1,
+      "namn": "Blå Dröm",
+      "imageUrl": "/img/blafilt.jpeg",
+      "beskrivning": "Handgjord med premium bomullsgarn, mjuk och skonsam mot huden. Perfekt för att ge ett stilrent och harmoniskt tillskott till ditt vardagsrum eller sovrum.",
+      "mått": "cirka 132 cm x 132 cm",
+      "pris": 700,
+      "product": "filtar"
+    },
+    {
+      "id": 2,
+      "namn": "Regnbågens Blomma",
+      "imageUrl": "/img/blomma.jpeg",
+      "beskrivning": "Vibrant och färgrik, tillverkad av ekologisk bomull. Den här filten är ett konstverk som fångar uppmärksamhet och tillför energi till varje rum.",
+      "mått": "cirka 142 cm i diameter",
+      "pris": 750,
+      "product": "filtar"
+    },
+    {
+      "id": 3,
+      "namn": "C2C Brun Vit",
+      "imageUrl": "/img/burnc2c.jpeg",
+      "beskrivning": "Klassisk design med en modern twist, en elegant mix av ull och bomull. Den är varm, mysig och perfekt för kalla vinterkvällar.",
+      "mått": "cirka 135 cm bred, cirka 170 cm lång",
+      "pris": 450,
+      "product": "filtar"
+    },
+    {
+      "id": 4,
+      "namn": "Mormors Filt",
+      "imageUrl": "/img/mormor.jpeg",
+      "beskrivning": "Traditionell mormorsruta, handgjord med kärlek och omsorg. Ett perfekt val för att skapa en varm och nostalgisk känsla i hemmet.",
+      "mått": "cirka 90 cm bred, cirka 158 cm lång",
+      "pris": 500,
+      "product": "filtar"
+    }
+  ],
+  "mössor": [
+    {
+      "id": 5,
+      "namn": "Restgarns Mössa",
+      "imageUrl": "/img/restmossa.jpeg",
+      "beskrivning": "Miljövänlig, tillverkad av restgarn för att minimera spill. Färgglad och unik, varje mössa är helt unik och perfekt för en personlig touch.",
+      "mått": "cirka 60 cm omkrets, cirka 22 cm lång",
+      "pris": 200
+    },
+    {
+      "id": 6,
+      "namn": "Mormors Mössa",
+      "imageUrl": "/img/mormorsmossa.jpeg",
+      "beskrivning": "Klassisk design med mjuk bomull som håller dig varm och bekväm under kyliga dagar. Ett tidlöst val som passar alla åldrar.",
+      "mått": "cirka 40 cm omkrets, cirka 19 cm lång",
+      "pris": 250
+    },
+    {
+      "id": 7,
+      "namn": "Nät Mössa med Pärlor",
+      "imageUrl": "/img/parlor.jpeg",
+      "beskrivning": "Unik design med handinfattade pärlor, som ger en lyxig och lekfull touch. Perfekt för att sticka ut ur mängden.",
+      "mått": "cirka 56 cm omkrets, höjd cirka 16 cm",
+      "pris": 220
+    }
+  ],
+  "väskor": [
+    {
+      "id": 8,
+      "namn": "Elegant Handväska",
+      "imageUrl": "/img/väska.jpeg",
+      "beskrivning": "Stilren och praktisk handväska, tillverkad av återvunnet material. Perfekt för dagligt bruk och håller alla dina essentials organiserade.",
+      "mått": "30 cm x 20 cm x 10 cm",
+      "pris": 350
+    },
+    {
+      "id": 9,
+      "namn": "Sunset Shoppingväska",
+      "imageUrl": "/img/sunset.jpeg",
+      "beskrivning": "Rymlig och hållbar shoppingväska med en färgglad design inspirerad av solnedgången. Perfekt för en dag på stan eller för att handla med stil.",
+      "mått": "45 cm x 35 cm x 15 cm",
+      "pris": 300
+    }
+  ],
+  "balaklava": [
+    {
+      "id": 10,
+      "namn": "Cozy Balaklava",
+      "imageUrl": "/img/balaklava1.jpeg",
+      "beskrivning": "Mörk och mystisk balaklava, perfekt för kalla äventyr och utomhusaktiviteter. Tillverkad för att hålla dig varm och bekväm.",
+      "mått": "One-size, passar alla",
+      "pris": 400
+    },
+    {
+      "id": 11,
+      "namn": "Isblå Balaklava",
+      "imageUrl": "/img/isbla.jpeg",
+      "beskrivning": "Ljusblå med iskristallmönster, tillverkad av termiskt garn för extra värme. Idealisk för vintersport och kalla dagar.",
+      "mått": "One-size, stretchig passform",
+      "pris": 450
+    },
+    {
+      "id": 12,
+      "namn": "Neon Balaklava",
+      "imageUrl": "/img/neonbalaklava.jpeg",
+      "beskrivning": "Rolig och livlig balaklava med neonfärger som garanterat drar blickarna till sig. Perfekt för den som vill sticka ut.",
+      "mått": "One-size, justerbar",
+      "pris": 350
+    }
+  ],
+  "orders": [
+    {
+      "product": "filt",
+      "type": "F",
+      "color": [
+        "indigo",
+        "violet"
+      ],
+      "yarnType": "Wool",
+      "measurements": {
+        "width": "43",
+        "length": "87"
       },
-      {
-        "id": 2,
-        "namn": "Regnbågens Blomma",
-        "imageUrl": "/img/blomma.jpeg",
-        "beskrivning": "Vibrant och färgrik, tillverkad av ekologisk bomull",
-        "mått": "cirka 142 cm i diameter",
-        "pris": 750
+      "comment": "lasdö",
+      "contactInfo": {
+        "firstName": "Saga",
+        "lastName": "Nord",
+        "email": "saga.nord99@hotmail.se",
+        "phoneNumber": "0708227786"
       },
-      {
-        "id": 3,
-        "namn": "C2C Brun Vit",
-        "imageUrl": "/img/vitbrun.jpeg",
-        "beskrivning": "Klassisk design med modern twist, mix av ull och bomull",
-        "mått": "cirka 135 cm bred, cirka 170 cm lång",
-        "pris": 450
-      },
-      {
-        "id": 4,
-        "namn": "Mormors Filt",
-        "imageUrl": "/img/mormor.jpeg",
-        "beskrivning": "Traditionell mormorsruta, handgjord med kärlek",
-        "mått": "cirka 90 cm bred, cirka 158 cm lång",
-        "pris": 500
-      },
-      {
-        "id": 5,
-        "namn": "Regnbågs Mormors Filt",
-        "imageUrl": "/img/regnmormor.jpeg",
-        "beskrivning": "Färgglad och mysig, perfekt för kalla kvällar",
-        "mått": "cirka 100 cm bred, cirka 150 cm lång",
-        "pris": 450
-      }
-    ],
-    "mössor": [
-      {
-        "id": 1,
-        "namn": "Restgarns Mössa",
-        "imageUrl": "/img/rest.jpeg",
-        "beskrivning": "Miljövänlig, tillverkad av restgarn",
-        "mått": "cirka 60 cm omkrets, cirka 22 cm lång",
-        "pris": 200
-      },
-      {
-        "id": 2,
-        "namn": "Mormors Mössa",
-        "imageUrl": "/img/mossamormor.jpeg",
-        "beskrivning": "Klassisk design med mjuk bomull",
-        "mått": "cirka 40 cm omkrets, cirka 19 cm lång",
-        "pris": 250
-      },
-      {
-        "id": 3,
-        "namn": "Nät Mössa med Pärlor",
-        "imageUrl": "/img/parlor.jpeg",
-        "beskrivning": "Unik design med handinfattade pärlor",
-        "mått": "cirka 56 cm omkrets, höjd cirka 16 cm",
-        "pris": 220
-      }
-    ],
-    "väskor": [
-      {
-        "id": 1,
-        "namn": "Elegant Handväska",
-        "imageUrl": "/img/vaska1.jpeg",
-        "beskrivning": "Stilren och praktisk, tillverkad av återvunnet material",
-        "mått": "30 cm x 20 cm x 10 cm",
-        "pris": 350
-      },
-      {
-        "id": 2,
-        "namn": "Regnbågens Shoppingväska",
-        "imageUrl": "/img/vaska2.jpeg",
-        "beskrivning": "Rymlig och hållbar med färgglad design",
-        "mått": "45 cm x 35 cm x 15 cm",
-        "pris": 300
-      }
-    ],
-    "balaklava": [
-      {
-        "id": 1,
-        "namn": "Nattens Skugga Balaklava",
-        "imageUrl": "/img/balaklava1.jpeg",
-        "beskrivning": "Mörk och mystisk, perfekt för kalla äventyr",
-        "mått": "One-size, passar alla",
-        "pris": 400
-      },
-      {
-        "id": 2,
-        "namn": "Isblå Balaklava",
-        "imageUrl": "/img/balaklava2.jpeg",
-        "beskrivning": "Ljusblå med iskristallmönster, tillverkad av termiskt garn",
-        "mått": "One-size, stretchig passform",
-        "pris": 450
-      },
-      {
-        "id": 3,
-        "namn": "Skogsvandrarens Balaklava",
-        "imageUrl": "/img/balaklava3.jpeg",
-        "beskrivning": "Grön och robust, för utomhusaktiviteter",
-        "mått": "One-size, justerbar",
-        "pris": 350
-      },
-      {
-        "id": 4,
-        "namn": "Stjärnklar Natt Balaklava",
-        "imageUrl": "/img/balaklava4.jpeg",
-        "beskrivning": "Svart med glittrande stjärnmönster, varm och bekväm",
-        "mått": "One-size, mjukt material",
-        "pris": 500
-      },
-      {
-        "id": 5,
-        "namn": "Arktisk Utforskare Balaklava",
-        "imageUrl": "/img/balaklava5.jpeg",
-        "beskrivning": "Vit och silver, isolerad för extrem kyla",
-        "mått": "One-size, vindtät design",
-        "pris": 550
-      }
-    ]
-  }
-  
+      "id": "b6d921c7-ec40-49e0-9a5b-8adaa0345944"
+    }
+  ],
+  "inventory": []
+}

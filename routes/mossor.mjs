@@ -5,12 +5,15 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
   try {
-    const data = await loadData(); 
+    console.log('Fetching data for mössor...');
+    const data = await loadData();
+    console.log('Data fetched:', data);
     res.json(data.mossor);
   } catch (error) {
-    console.error('Error loading omarden:', error);
-    res.status(500).send('Serverfel vid hämtning av mössor');
+    console.error('Error loading mössor:', error);
+    res.status(500).send('Server error when fetching mössor');
   }
 });
+
 
 export default router;
